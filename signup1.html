@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>SIGN UP PAGE</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+  <br>
+  <br><br>
+  <br><center>
+  <div style="border:black;border-style:solid;justify-content: center;width:50%;">
+
+  <br>
+  <br>
+  <img src="C:\Users\Lenovo\Desktop\gamebase\images\log.png" style="width:200px;height:200px;">
+<br><br><br>
+
+<form>
+  <label for="e-mail"><b>Email:   </b></label>
+  <input type="text" id="email1" placeholder="Enter Email Address"><br><br><br>
+  <label for="pass"><b>Password:</b></label>
+  <input type="password" id="pass" placeholder="Enter Password"><br><br><br>
+  <button class="btn btn-primary" id="btn-signup" type="button" onclick="signUp()">
+REGISTER
+</button>
+</form>
+<br>
+<br>
+</div>
+</center>
+
+
+
+
+
+
+
+<script src="authentication.js"></script>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-auth.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDVTSPOLfYbrD-cz1Iuk_pE_vnkYftkfQ4",
+    authDomain: "first-gameba.firebaseapp.com",
+    projectId: "first-gameba",
+    storageBucket: "first-gameba.appspot.com",
+    messagingSenderId: "720372944763",
+    appId: "1:720372944763:web:cdc826b6534e6a222c77de",
+    measurementId: "G-BCQ0N1LMB0"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
