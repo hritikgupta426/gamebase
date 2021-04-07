@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GAMEBASE-HOME PAGE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+body{
+  color:white;
+  background-color:#272525;
+}
+div.wid{
+  float:right;
+}
+  .gal{
+    float:left;
+    width:20%;
+    margin:15px;
+  }
+  .gall{float:left;
+
+    margin:10px;
+
+  }
+</style>
+
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Game Box</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="gamebase.html">Home</a></li>
+  <li><a href="social.html">Social</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+     <li><a href="#bell" data-toggle="collapse"><span class="glyphicon glyphicon-bell"></span></a>
+<div class="collapse" id="bell">Sorry no notifications yet.</div>
+     </li>
+     <li><a href="gamebase\login1.html"><span class="glyphicon glyphicon-log-in"></span></a></li>
+</ul>
+
+
+
+<form class="navbar-form navbar-right">
+
+    <input type="text" style="width:100%;color:black;"  placeholder="Search" id="searchh" onkeyup="e()">
+
+</form>
+
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/3d-basketball">3d basketball</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/3d-air-hockey">3d air hockey</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/archery-world-tour">archery world</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/word-search-classic">word search</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/3d-air-hockey">brain trainer</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/solitaire-klondike">solitaire</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="">table tennis</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/gin-rummy-plus">rummy</a></div>
+<div class="text-capitalize" style="font-size:20px;display:none;"><a href="https://play.famobi.com/defly">defly</a></div>
+
+
+<div class="text-capitalize" style="font-size:20px;display:none;">rummy</div>
+<div class="text-capitalize" style="font-size:20px;display:none;">solitaire legend</div>
+<div class="text-capitalize" style="font-size:20px;display:none;">defly</div>
+</div>
+    </nav>
+<div class="wid" style="width:5%;height:100%; position:fixed;color:white;"><br><br><br><br>
+<span style="padding:15px;" class="glyphicon glyphicon-align-left"></span>
+<br>
+<span style="padding:15px;" class="	glyphicon glyphicon-tasks"></span>
+</div>
+<div class="wid" style="width:95%;height:100%;"><br><br><br><br>
+  <div class="container-fluid">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+<center><a href="https://play.famobi.com/3d-basketball">
+        <img src="C:\Users\Lenovo\Desktop\gamebase\images\3dBasketballTeaser.jpg" style="width:75%; height:550px;"  alt="Los Angeles">
+      </a>
+      </div>
+</center>
+      <div class="item">
+<center><a href="https://play.famobi.com/word-search-classic">
+        <img src="C:\Users\Lenovo\Desktop\gamebase\images\WordSearchClassicTeaser.jpg" style="width:75%; height:550px;"  alt="Chicago">
+      </a></div>
+</center>
+      <div class="item">
+<center><a href="https://play.famobi.com/solitaire-klondike">
+        <img src="C:\Users\Lenovo\Desktop\gamebase\images\SolitaireKlondikeTeaser.jpg" style="width:75%; height:550px;"  alt="New York"></a>
+      </div>
+    </div></center>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<br><br><br><br>
+<div class="container" style="text-align:center;">
+  Click Here:
+  <button id="myButton" class="float-left submit-button btn-success" > ALL GAMES</button>
+
+  <script type="text/javascript">
+      document.getElementById("myButton").onclick = function () {
+          location.href = "allgames.html";
+      };
+  </script>
+</div>
+<br><br><br><br><div>
+<h2>MOSTLY PLAYED<span class="glyphicon glyphicon-menu-right"></span></h2><br><br>
+</div>
+<div class="gal"><a href="https://play.famobi.com/defly"><img src="C:\Users\Lenovo\Desktop\gamebase\images\DeflyTeaser.jpg" style="width:80%;"></a></div>
+<div class="gal"><a href="https://play.famobi.com/gin-rummy-plus"><img src="C:\Users\Lenovo\Desktop\gamebase\images\GinRummyPlusTeaser.jpg" style="width:80%;"></a></div>
+<div class="gal"><a href="https://play.famobi.com/8-ball-billiards-classic"><img src="C:\Users\Lenovo\Desktop\gamebase\images\8BallBilliardsClassicTeaser.jpg" style="width:80%;"></a></div>
+
+<BR clear="all"/><br>
+<h2>CLICK ON EACH DIVISION TO BROWSE BY GENRE<span class="glyphicon glyphicon-menu-right"></span></h2><br><br>
+<div class="row border" style="text-align:center;color:black;background-color:white;">
+<div class="col-sm-4" data-toggle="collapse" data-target="#ff">
+<h4> Sports </h4>   <div class="collapse" id="ff">
+  <div class="gall"><a href="https://play.famobi.com/archery-world-tour"><img src="C:\Users\Lenovo\Desktop\gamebase\images\ArcheryWorldTourTeaser.jpg" style="width:130px;"></a></div>
+  <div class="gall"><a href="https://play.famobi.com/3d-air-hockey"><img src="C:\Users\Lenovo\Desktop\gamebase\images\3dAirHockeyTeaser.jpg" style="width:130px;"></a></div>
+  <div class="gall"><a href="https://play.famobi.com/8-ball-billiards-classic"><img src="C:\Users\Lenovo\Desktop\gamebase\images\8BallBilliardsClassicTeaser.jpg" style="width:130px;"></a></div>
+
+</div>                 </div>
+<div class="col-sm-4" data-toggle="collapse" data-target="#f">
+<h4>Cards Games</h4><div class="collapse" id="f">
+  <div class="gall"><a href="https://play.famobi.com/solitaire-legend"><img src="C:\Users\Lenovo\Desktop\gamebase\images\SolitaireLegendTeaser.jpg" style="width:130px;"></a></div>
+  <div class="gall"><a href="https://play.famobi.com/gin-rummy-plus"><img src="C:\Users\Lenovo\Desktop\gamebase\images\GinRummyPlusTeaser.jpg" style="width:130px;"></a></div>
+  <div class="gall"><a href="https://play.famobi.com/solitaire-klondike"><img src="C:\Users\Lenovo\Desktop\gamebase\images\SolitaireKlondikeTeaser.jpg" style="width:130px;"></a></div>
+</div></div>
+<div class="col-sm-4" data-toggle="collapse" data-target="#fff">
+<h4>Brain Games</h4>
+<div class="collapse" id="fff">
+  <div class="gall"><a href="https://play.famobi.com/defly"><img src="C:\Users\Lenovo\Desktop\gamebase\images\DeflyTeaser.jpg" style="width:130px;"></a></div>
+  <div class="gall"><a href="https://play.famobi.com/word-search-classic"><img src="C:\Users\Lenovo\Desktop\gamebase\images\WordSearchClassicTeaser.jpg" style="width:130px;"></a></div>
+  <div class="gall"><a href="https://play.famobi.com/3d-air-hockey"><img src="C:\Users\Lenovo\Desktop\gamebase\images\BrainTrainerTeaser.jpg" style="width:130px;"></a></div>
+</div>
+</div>
+</div>
+<br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script>
+firebase.auth().onAuthStateChanged(function(user)
+{
+  if(user)
+  {window.location.href="login.html";}
+}
+
+);
+</script>
+
+
+<script src="search.js">
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
